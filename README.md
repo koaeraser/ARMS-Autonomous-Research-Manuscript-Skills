@@ -1,6 +1,8 @@
-# Research Pipeline: Autonomous Academic Paper Production with Claude Code
+# ARMS-Biostat: Bayesian Clinical Trial Case Studies
 
-A system of 10 coordinated Claude Code skills that automate the full lifecycle of a statistical methodology paper — from idea to polished manuscript. Built and tested on a Bayesian clinical trial methods paper targeting *Biometrics*.
+> **Looking for the general-purpose pipeline?** See [ARMS](https://github.com/koaeraser/ARMS) for domain-agnostic skills, a research brief template, and additional case studies.
+
+This repository contains the **biostatistics-specific** version of the ARMS pipeline: 10 skills calibrated for Bayesian clinical trial methods targeting *Biometrics*, plus two case studies produced from the same research brief and corrected dataset.
 
 ## Why This Exists
 
