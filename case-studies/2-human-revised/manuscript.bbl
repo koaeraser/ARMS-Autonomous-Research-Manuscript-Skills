@@ -1,0 +1,143 @@
+\begin{thebibliography}{20}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alt et~al.(2024)Alt, Chang, Jiang, Liu, Mo, Xia, and
+  Ibrahim]{alt2024leap}
+Ethan~M Alt, Xiuya Chang, Xun Jiang, Qing Liu, May Mo, H~Amy Xia, and Joseph~G
+  Ibrahim.
+\newblock {LEAP}: the latent exchangeability prior for borrowing information
+  from historical data.
+\newblock \emph{Biometrics}, 80\penalty0 (3):\penalty0 ujae083, 2024.
+
+\bibitem[Besag(1974)]{besag1974spatial}
+Julian Besag.
+\newblock Spatial interaction and the statistical analysis of lattice systems.
+\newblock \emph{Journal of the Royal Statistical Society: Series B
+  (Methodological)}, 36\penalty0 (2):\penalty0 192--236, 1974.
+
+\bibitem[Besag et~al.(1991)Besag, York, and Molli{\'e}]{besag1991bayesian}
+Julian Besag, Jeremy York, and Annie Molli{\'e}.
+\newblock Bayesian image restoration, with two applications in spatial
+  statistics.
+\newblock \emph{Annals of the Institute of Statistical Mathematics},
+  43\penalty0 (1):\penalty0 1--59, 1991.
+
+\bibitem[Hobbs et~al.(2011)Hobbs, Carlin, Mandrekar, and
+  Sargent]{hobbs2011hierarchical}
+Brian~P Hobbs, Bradley~P Carlin, Sumithra~J Mandrekar, and Daniel~J Sargent.
+\newblock Hierarchical commensurate and power prior models for adaptive
+  incorporation of historical information in clinical trials.
+\newblock \emph{Biometrics}, 67\penalty0 (3):\penalty0 1047--1056, 2011.
+
+\bibitem[Ibrahim and Chen(2000)]{ibrahim2000power}
+Joseph~G Ibrahim and Ming-Hui Chen.
+\newblock Power prior distributions for regression models.
+\newblock \emph{Statistical Science}, 15\penalty0 (1):\penalty0 46--60, 2000.
+
+\bibitem[Ji et~al.(2022)Ji, Bhatt, Li, and Yang]{ji2022data}
+Yijie Ji, Sheena Bhatt, Xing Li, and Bo~Yang.
+\newblock A data-driven {M}ulti-source {E}xchangeability {M}odel for the
+  integration of historical and external controls.
+\newblock \emph{Biostatistics}, 24\penalty0 (3):\penalty0 669--686, 2022.
+
+\bibitem[Kaizer et~al.(2018)Kaizer, Koopmeiners, and Hobbs]{kaizer2018bayesian}
+Alexander~M Kaizer, Joseph~S Koopmeiners, and Brian~P Hobbs.
+\newblock Bayesian hierarchical modeling based on multisource exchangeability.
+\newblock \emph{Biostatistics}, 19\penalty0 (2):\penalty0 169--184, 2018.
+
+\bibitem[Kaizer et~al.(2021)Kaizer, Koopmeiners, and Hobbs]{kaizer2021bayesian}
+Alexander~M Kaizer, Joseph~S Koopmeiners, and Brian~P Hobbs.
+\newblock Bayesian hierarchical modeling based on multisource exchangeability.
+\newblock \emph{Biometrics}, 77\penalty0 (2):\penalty0 401--415, 2021.
+
+\bibitem[Leroux et~al.(2000)Leroux, Lei, and Breslow]{leroux2000estimation}
+Brian~G Leroux, Xingye Lei, and Norman Breslow.
+\newblock Estimation of disease rates in small areas: a new mixed model for
+  spatial dependence.
+\newblock In M~Elizabeth Halloran and Donald Berry, editors, \emph{Statistical
+  Models in Epidemiology, the Environment, and Clinical Trials}, pages
+  179--191. Springer, New York, 2000.
+
+\bibitem[Lin et~al.(2018)Lin, Gamalo-Siebers, and Tiwari]{lin2018propensity}
+Jianchang Lin, Margaret Gamalo-Siebers, and Ram Tiwari.
+\newblock Propensity score matched augmented controls in randomized clinical
+  trials: a case study.
+\newblock \emph{Pharmaceutical Statistics}, 17\penalty0 (5):\penalty0 497--507,
+  2018.
+
+\bibitem[Morita et~al.(2008)Morita, Thall, and
+  M{\"u}ller]{morita2008determining}
+Satoshi Morita, Peter~F Thall, and Peter M{\"u}ller.
+\newblock Determining the effective sample size of a parametric prior.
+\newblock \emph{Biometrics}, 64\penalty0 (2):\penalty0 595--602, 2008.
+
+\bibitem[Neuenschwander et~al.(2016)Neuenschwander, Wandel, Roychoudhury, and
+  Bailey]{neuenschwander2016robust}
+Beat Neuenschwander, Simon Wandel, Satrajit Roychoudhury, and Stuart Bailey.
+\newblock Robust exchangeability designs for early phase clinical trials with
+  multiple strata.
+\newblock \emph{Pharmaceutical Statistics}, 15\penalty0 (2):\penalty0 123--134,
+  2016.
+
+\bibitem[Neuenschwander et~al.(2020)Neuenschwander, Weber, Schmidli, and
+  O'Hagan]{neuenschwander2020predictively}
+Beat Neuenschwander, Sebastian Weber, Heinz Schmidli, and Anthony O'Hagan.
+\newblock Predictively consistent prior effective sample sizes.
+\newblock \emph{Biometrics}, 76\penalty0 (2):\penalty0 578--587, 2020.
+
+\bibitem[Rue and Held(2005)]{rue2005gaussian}
+H{\aa}vard Rue and Leonhard Held.
+\newblock \emph{Gaussian Markov Random Fields: Theory and Applications}.
+\newblock CRC Press, Boca Raton, FL, 2005.
+
+\bibitem[Rue et~al.(2009)Rue, Martino, and Chopin]{rue2009approximate}
+H{\aa}vard Rue, Sara Martino, and Nicolas Chopin.
+\newblock Approximate {B}ayesian inference for latent {G}aussian models by
+  using integrated nested {L}aplace approximations.
+\newblock \emph{Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)}, 71\penalty0 (2):\penalty0 319--392, 2009.
+
+\bibitem[Schmidli et~al.(2014)Schmidli, Gsteiger, Roychoudhury, O'Hagan,
+  Spiegelhalter, and Neuenschwander]{schmidli2014robust}
+Heinz Schmidli, Sandro Gsteiger, Satrajit Roychoudhury, Anthony O'Hagan, David
+  Spiegelhalter, and Beat Neuenschwander.
+\newblock Robust meta-analytic-predictive priors in clinical trials with
+  historical control information.
+\newblock \emph{Biometrics}, 70\penalty0 (4):\penalty0 1023--1032, 2014.
+
+\bibitem[Schwartz et~al.(2024)Schwartz, Ji, and Wang]{schwartz2024spx}
+Daniel~E Schwartz, Yuan Ji, and Li~Wang.
+\newblock Dynamic borrowing from historical controls via the synthetic prior
+  with covariates in randomized clinical trials.
+\newblock \emph{arXiv preprint arXiv:2410.07242}, 2024.
+
+\bibitem[Tierney and Kadane(1986)]{tierney1986accurate}
+Luke Tierney and Joseph~B Kadane.
+\newblock Accurate approximations for posterior moments and marginal densities.
+\newblock \emph{Journal of the American Statistical Association}, 81\penalty0
+  (393):\penalty0 82--86, 1986.
+
+\bibitem[Virtanen et~al.(2020)Virtanen, Gommers, Oliphant, Haberland, Reddy,
+  Cournapeau, Burovski, Peterson, Weckesser, Bright, et~al.]{virtanen2020scipy}
+Pauli Virtanen, Ralf Gommers, Travis~E Oliphant, Matt Haberland, Tyler Reddy,
+  David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren Weckesser, Jonathan
+  Bright, et~al.
+\newblock {SciPy} 1.0: fundamental algorithms for scientific computing in
+  {Python}.
+\newblock \emph{Nature Methods}, 17\penalty0 (3):\penalty0 261--272, 2020.
+
+\bibitem[Wang et~al.(2020)Wang, Li, Chen, Lu, Tiwari, Xu, and
+  Yue]{wang2020propensity}
+Chenguang Wang, Huilin Li, Wei-Chen Chen, Nelson Lu, Ram Tiwari, Yunling Xu,
+  and Lilly~Q Yue.
+\newblock Propensity score-integrated composite likelihood approach for
+  augmenting the control arm of a randomized controlled trial by incorporating
+  real-world data.
+\newblock \emph{Journal of Biopharmaceutical Statistics}, 30\penalty0
+  (3):\penalty0 508--520, 2020.
+
+\end{thebibliography}

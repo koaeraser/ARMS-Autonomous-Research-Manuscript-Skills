@@ -553,7 +553,7 @@ To complement the real-data LOO-CV evaluation, we conducted a simulation study w
 
 \begin{table}[ht]
 \centering
-\caption{Simulation study results ($R = 1{,}000$ replicates, $B = 2{,}000$). MSE, coverage, and CRPS are averaged over all replicates; values in parentheses are Monte Carlo standard errors. Best MSE in each scenario is bolded; best coverage (closest to 0.95 nominal) is also bolded. Full Pooling and KG-PP achieve low MSE in some scenarios but severely miscalibrated coverage ($< 0.20$), illustrating the importance of proper uncertainty quantification.}
+\caption{Simulation study results ($R = 1{,}000$ replicates, $B = 2{,}000$). MSE, coverage, and CRPS are averaged over all replicates; values in parentheses are Monte Carlo standard errors. Top two MSEs in each scenario are bolded (including ties); best coverage (closest to 0.95 nominal) is also bolded. Full Pooling and KG-PP achieve low MSE in some scenarios but with severely miscalibrated coverage ($< 0.20$), illustrating the importance of proper uncertainty quantification.}
 \label{tab:simulation}
 \small
 \begin{tabular}{llcccc}
@@ -562,15 +562,15 @@ Scenario & Method & MSE (SE) & Coverage (SE) & CRPS & Bias \\
 \midrule
 \multirow{6}{*}{1. Homogeneous}
 & \textbf{KG-CAR} & \textbf{0.0213} (0.0009) & \textbf{0.951} (0.007) & 0.085 & $+$0.009 \\
-& KG-PP & 0.0211 (0.0009) & 0.126 (0.010) & 0.109 & $+$0.002 \\
+& KG-PP & \textbf{0.0211} (0.0009) & 0.126 (0.010) & 0.109 & $+$0.002 \\
 & rMAP & 0.0226 (0.0009) & 0.963 (0.006) & 0.084 & $+$0.043 \\
 & BHM & 0.0222 (0.0009) & 0.901 (0.009) & 0.084 & $+$0.038 \\
-& Full Pool. & 0.0211 (0.0009) & 0.119 (0.010) & 0.110 & $+$0.002 \\
+& Full Pool. & \textbf{0.0211} (0.0009) & 0.119 (0.010) & 0.110 & $+$0.002 \\
 & No Borrow. & 0.0600 (0.0017) & 1.000 (---) & 0.156 & $+$0.202 \\
 \midrule
 \multirow{6}{*}{2. Heterogeneous}
 & \textbf{KG-CAR} & \textbf{0.0292} (0.0010) & \textbf{0.977} (0.005) & \textbf{0.096} & $-$0.093 \\
-& KG-PP & 0.0239 (0.0009) & 0.157 (0.012) & 0.118 & $-$0.056 \\
+& KG-PP & \textbf{0.0239} (0.0009) & 0.157 (0.012) & 0.118 & $-$0.056 \\
 & rMAP & 0.0672 (0.0018) & 0.990 (0.003) & 0.152 & $-$0.218 \\
 & BHM & 0.0674 (0.0018) & 0.985 (0.004) & 0.152 & $-$0.219 \\
 & Full Pool. & 0.0824 (0.0022) & 0.029 (0.005) & 0.249 & $-$0.248 \\
@@ -580,13 +580,13 @@ Scenario & Method & MSE (SE) & Coverage (SE) & CRPS & Bias \\
 & KG-CAR & 0.0604 (0.0018) & \textbf{0.956} (0.006) & 0.144 & $+$0.199 \\
 & KG-PP & 0.0604 (0.0018) & 0.058 (0.007) & 0.206 & $+$0.199 \\
 & rMAP & \textbf{0.0593} (0.0017) & 0.970 (0.005) & \textbf{0.142} & $+$0.199 \\
-& BHM & 0.0593 (0.0017) & 0.939 (0.008) & \textbf{0.142} & $+$0.199 \\
+& BHM & \textbf{0.0593} (0.0017) & 0.939 (0.008) & \textbf{0.142} & $+$0.199 \\
 & Full Pool. & 0.0604 (0.0018) & 0.052 (0.007) & 0.207 & $+$0.199 \\
-& No Borrow. & 0.0589 (0.0016) & 1.000 (---) & 0.155 & $+$0.199 \\
+& No Borrow. & \textbf{0.0589} (0.0016) & 1.000 (---) & 0.155 & $+$0.199 \\
 \midrule
 \multirow{6}{*}{4. Contamination}
 & \textbf{KG-CAR} & \textbf{0.0214} (0.0009) & \textbf{0.965} (0.006) & \textbf{0.082} & $+$0.027 \\
-& KG-PP & 0.0207 (0.0009) & 0.157 (0.012) & 0.108 & $+$0.008 \\
+& KG-PP & \textbf{0.0207} (0.0009) & 0.157 (0.012) & 0.108 & $+$0.008 \\
 & rMAP & 0.0341 (0.0011) & 0.996 (0.002) & 0.110 & $+$0.118 \\
 & BHM & 0.0339 (0.0011) & 0.996 (0.002) & 0.109 & $+$0.117 \\
 & Full Pool. & 0.0348 (0.0011) & 0.076 (0.008) & 0.152 & $+$0.120 \\
@@ -594,10 +594,10 @@ Scenario & Method & MSE (SE) & Coverage (SE) & CRPS & Bias \\
 \midrule
 \multirow{6}{*}{5. Corrupted KG}
 & \textbf{KG-CAR} & \textbf{0.0215} (0.0009) & \textbf{0.948} (0.007) & 0.085 & $+$0.009 \\
-& KG-PP & 0.0211 (0.0009) & 0.129 (0.011) & 0.110 & $+$0.002 \\
+& KG-PP & \textbf{0.0211} (0.0009) & 0.129 (0.011) & 0.110 & $+$0.002 \\
 & rMAP & 0.0226 (0.0009) & 0.963 (0.006) & 0.084 & $+$0.043 \\
 & BHM & 0.0222 (0.0009) & 0.901 (0.009) & 0.084 & $+$0.038 \\
-& Full Pool. & 0.0211 (0.0009) & 0.119 (0.010) & 0.110 & $+$0.002 \\
+& Full Pool. & \textbf{0.0211} (0.0009) & 0.119 (0.010) & 0.110 & $+$0.002 \\
 & No Borrow. & 0.0600 (0.0017) & 1.000 (---) & 0.156 & $+$0.202 \\
 \bottomrule
 \end{tabular}
