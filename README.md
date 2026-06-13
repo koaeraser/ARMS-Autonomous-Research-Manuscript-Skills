@@ -1,6 +1,6 @@
 # ARMS-Biostat: Bayesian Clinical Trial Case Studies
 
-> **Looking for the general-purpose pipeline?** See [ARMS](https://github.com/koaeraser/ARMS) for domain-agnostic skills, a research brief template, and additional case studies.
+> **Heads up — this is the earlier, biostatistics-specific version of ARMS, now superseded.** These 10 skills are the original form of the pipeline, built for Bayesian clinical-trial methods and used to produce the KG-DAP / KG-CAR case studies (KG-DAP run 2026-03-23). One day later they were generalized to domain-agnostic form and extended — a Phase 0 `brief-expander` and the `critic-revisor` augmentation were added — in **[ARMS](https://github.com/koaeraser/ARMS)**, the maintained general-purpose successor. Start new work from ARMS; this repository is kept as the biostatistics record and is not extended further.
 
 This repository contains the **biostatistics-specific** version of the ARMS pipeline: 10 skills calibrated for Bayesian clinical trial methods targeting *Biometrics*, plus two case studies produced from the same research brief and corrected dataset.
 
@@ -195,6 +195,8 @@ Neither method was prescribed in the brief. The pipeline independently discovere
 ## Provenance
 
 Developed over sessions D-K (March 2026) as part of a project to automate production of Bayesian clinical trial methods papers. The v1 system (sessions D-E, simple write-grade-fix loop) identified the plateau problem; the v2 system (sessions J-K) was designed from scratch to address it. The autonomous case study (KG-DAP) was produced on 2026-03-23 in a single pipeline run.
+
+These biostatistics-specific skills are the **ancestor** of the general pipeline. One day later, on 2026-03-24, they were generalized to domain-agnostic form and released as [ARMS](https://github.com/koaeraser/ARMS), which then added a Phase 0 `brief-expander` and, on 2026-06-10, the `critic-revisor` augmentation. ARMS is the maintained successor; this repository is preserved as the original biostatistics record and is not extended further.
 
 ## License
 
